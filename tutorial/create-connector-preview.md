@@ -21,7 +21,7 @@
 [コネクタの構成] ページで、ナビゲーションメニューの [**セキュリティ**] リンクを選択します。 フィールドに次のように入力します。
 
 - **API によって実装されている認証を選択し**ます。`OAuth 2.0`
-- **id プロバイダー**:`Azure Active Directory`
+- **Id プロバイダー**:`Azure Active Directory`
 - **クライアント id**: 前の手順で作成したアプリケーション id
 - **クライアントシークレット**: 前の手順で作成したキー
 - **ログイン url**:`https://login.windows.net`
@@ -39,4 +39,4 @@
 
 前の手順で作成した[Azure Portal](https://aad.portal.azure.com)の登録済みアプリケーションに戻ります。 **MS Graph バッチアプリ**ブレードの [**概要**] を選択し、[**リダイレクト URI の追加**] を選択します。 **リダイレクト URI**フィールドにコピーした**リダイレクト URL**を追加し、[**保存**] を選択します。
 
-![Azure portal の応答 url ブレードのスクリーンショット](./images/flow-conn-preview6.png)
+![Azure portal の応答 Url ブレードのスクリーンショット](./images/flow-conn-preview6.png)

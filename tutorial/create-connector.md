@@ -21,7 +21,7 @@
 [コネクタの構成] ページで、ナビゲーションメニューの [**セキュリティ**] リンクを選択します。 フィールドに次のように入力します。
 
 - **API によって実装されている認証を選択し**ます。`OAuth 2.0`
-- **id プロバイダー**:`Azure Active Directory`
+- **Id プロバイダー**:`Azure Active Directory`
 - **クライアント id**: 前の手順で作成したアプリケーション id
 - **クライアントシークレット**: 前の手順で作成したキー
 - **ログイン url**:`https://login.windows.net`
@@ -37,6 +37,6 @@
 
 ![生成されたリダイレクト URL のスクリーンショット](./images/flow-conn5.png)
 
-前の手順で作成した[Azure Portal](https://aad.portal.azure.com)の登録済みアプリケーションに戻ります。 [**設定**] ブレードで [**返信 url** ] を選択します。 コピーした**リダイレクト url**を、追加の**応答 url**として追加します。 Azure Active Directory ポータルにアプリケーションを保存します。
+前の手順で作成した[Azure Portal](https://aad.portal.azure.com)の登録済みアプリケーションに戻ります。 [**設定**] ブレードで [**返信 Url** ] を選択します。 コピーした**リダイレクト url**を、追加の**応答 url**として追加します。 Azure Active Directory ポータルにアプリケーションを保存します。
 
-![Azure portal の応答 url ブレードのスクリーンショット](./images/flow-conn6.png)
+![Azure portal の応答 Url ブレードのスクリーンショット](./images/flow-conn6.png)

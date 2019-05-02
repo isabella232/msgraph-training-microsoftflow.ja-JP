@@ -1,8 +1,8 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-Microsoft Flow には、230を超える box コネクタがあります。 これらのコネクタの多くは microsoft 製品の特定のエンドポイントと通信するために microsoft graph を使用していますが、microsoft graph と直接通信して API 全体をカバーするコネクタはありません。 ただし、サービスの基本構成要素を使用して、フローから直接 Microsoft Graph を呼び出す必要があるシナリオもあります。
+Microsoft Flow には、230を超える box コネクタがあります。 これらのコネクタの多くは microsoft 製品の特定のエンドポイントと通信するために Microsoft Graph を使用していますが、Microsoft Graph と直接通信して API 全体をカバーするコネクタはありません。 ただし、サービスの基本構成要素を使用して、フローから直接 Microsoft Graph を呼び出す必要があるシナリオもあります。
 
-microsoft graph を直接呼び出すシナリオに対処するだけでなく、microsoft graph API のエンドポイントの多くは、委任された[アクセス許可](https://docs.microsoft.com/graph/permissions-reference)のみをサポートしています。 microsoft Flow の HTTP コネクタを使用すると、microsoft Graph を呼び出すことを含め、非常に柔軟な統合が可能になります。 ただし、HTTP コネクタは、特定の委任されたアクセス許可シナリオを有効にするためにユーザーの資格情報をキャッシュする機能を備えていません。 このような場合は、カスタムコネクタを作成して、Microsoft Graph API のラッパーを提供し、委任されたアクセス許可で api を使用できるようにすることができます。
+Microsoft Graph を直接呼び出すシナリオに対処するだけでなく、Microsoft Graph API のエンドポイントの多くは、委任された[アクセス許可](https://docs.microsoft.com/graph/permissions-reference)のみをサポートしています。 Microsoft Flow の HTTP コネクタを使用すると、Microsoft Graph を呼び出すことを含め、非常に柔軟な統合が可能になります。 ただし、HTTP コネクタは、特定の委任されたアクセス許可シナリオを有効にするためにユーザーの資格情報をキャッシュする機能を備えていません。 このような場合は、カスタムコネクタを作成して、Microsoft Graph API のラッパーを提供し、委任されたアクセス許可で API を使用できるようにすることができます。
 
 このラボでは、上記の両方の課題について説明します。 最初に、委任された[アクセス許可](https://docs.microsoft.com/graph/permissions-reference)を必要とする Microsoft Graph との統合を可能にするカスタムコネクタを作成します。 次に、 [$batch 要求エンドポイント](https://docs.microsoft.com/graph/json-batching)を使用して、アプリに "サインイン済み" ユーザーが存在することを必要とする委任されたアクセス許可を使用して、Microsoft Graph のフルパワーにアクセスできるようにします。
 

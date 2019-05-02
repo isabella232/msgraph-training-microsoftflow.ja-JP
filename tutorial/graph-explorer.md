@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-新しいコネクタを使用するフローを作成する前に、 [microsoft graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)を使用して、microsoft graph での JSON バッチの機能の一部を確認してください。
+新しいコネクタを使用するフローを作成する前に、 [Microsoft Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)を使用して、microsoft graph での JSON バッチの機能の一部を確認してください。
 
 ブラウザーで[Microsoft Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)を開きます。 Office 365 テナント管理者アカウントでサインインします。 左側のナビゲーションウィンドウの [**その他のサンプルを表示**する] リンクを選択し、**バッチ**処理および**Microsoft Teams (ベータ)** のサンプルを**オン**に切り替えます。
 
@@ -8,7 +8,7 @@
 
 左側のメニューで、[**並列実行**] サンプルクエリを選択します。 画面の右上にある [**クエリの実行**] ボタンをクリックします。
 
-サンプルのバッチ操作は、3つの http GET 要求をバッチ処理して`/v1.0/$batch` 、Graph エンドポイントに対する1つの http POST を発行します。
+サンプルのバッチ操作は、3つの HTTP GET 要求をバッチ処理して`/v1.0/$batch` 、Graph エンドポイントに対する1つの http POST を発行します。
 
 ```json
 {
@@ -70,7 +70,7 @@ JSON バッチは、シーケンス処理および依存操作に加えて、基
 
 たとえば、 [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer)で次の2つのクエリを実行します。
 
-1. url `/me`を`/v1.0/$batch`使用してエンドポイントに対してクエリを実行します (以下のコピーと貼り付け要求)。
+1. Url `/me`を`/v1.0/$batch`使用してエンドポイントに対してクエリを実行します (以下のコピーと貼り付け要求)。
 
 ```json
 {
@@ -84,7 +84,7 @@ JSON バッチは、シーケンス処理および依存操作に加えて、基
 }
 ```
 
-![v 1.0 が選択された状態での Graph Explorer のバッチクエリのスクリーンショット](./images/graph-explore3.png)
+![V 1.0 が選択された状態での Graph Explorer のバッチクエリのスクリーンショット](./images/graph-explore3.png)
 
 次に、バージョン選択ドロップダウンを使用して`beta`エンドポイントに変更し、まったく同じ要求を行います。
 
