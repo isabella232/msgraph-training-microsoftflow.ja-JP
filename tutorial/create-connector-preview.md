@@ -6,15 +6,11 @@
 
 [!code-json[](../LabFiles/MSGraph-Delegate-Batch.swagger.json)]
 
-ブラウザーを開き、[ [Microsoft Flow](https://flow.microsoft.com)] に移動します。 Office 365 テナント管理者アカウントでサインインします。 右上の歯車アイコンを選択し、ドロップダウンメニューの [**カスタムコネクタ**] 項目を選択します。
+ブラウザーを開き、[ [Microsoft Flow](https://flow.microsoft.com)] に移動します。 Office 365 テナント管理者アカウントでサインインします。 左側のメニューで [**データ**] を展開し、[**カスタムコネクタ**] を選択します。
 
-![Microsoft Flow のドロップダウンメニューのスクリーンショット](./images/flow-conn1.png)
+![Microsoft Flow のカスタムコネクタメニュー項目のスクリーンショット](./images/flow-conn1.png)
 
-[**カスタムコネクタ**] ページの右上にある [**カスタムコネクタの作成**] リンクを選択し、ドロップダウンメニューの [開いている**API ファイルをインポート**する] 項目を選択します。
-
- ![Microsoft Flow の [カスタムコネクタの作成] ドロップダウンメニューのスクリーンショット](./images/flow-conn2.png)
-
-[ `MS Graph Batch Connector` **カスタムコネクタ名**] テキストボックスにを入力します。 [フォルダー] アイコンを選択して、開いている API ファイルをアップロードします。 作成した`MSGraph-Delegate-Batch.swagger.json`ファイルを参照します。 [**続行**] を選択して、開いている API ファイルをアップロードします。
+[**カスタムコネクタ**] ページの右上にある [**新しいカスタムコネクタ**] リンクを選択し、ドロップダウンメニューから [ **openapi ファイルをインポートする**] 項目を選択します。 [ `MS Graph Batch Connector` **コネクタ名**] テキストボックスにを入力します。 [**インポート**] ボタンを選択して、開いている API ファイルをアップロードします。 作成した`MSGraph-Delegate-Batch.swagger.json`ファイルを参照します。 [**続行**] を選択して、openapi ファイルをアップロードします。
 
  ![[カスタムコネクタの作成] ダイアログのスクリーンショット](./images/flow-conn3.png)
 

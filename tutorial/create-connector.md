@@ -37,6 +37,6 @@
 
 ![生成されたリダイレクト URL のスクリーンショット](./images/flow-conn5.png)
 
-前の手順で作成した[Azure Portal](https://aad.portal.azure.com)の登録済みアプリケーションに戻ります。 [**設定**] ブレードで [**返信 Url** ] を選択します。 コピーした**リダイレクト url**を、追加の**応答 url**として追加します。 Azure Active Directory ポータルにアプリケーションを保存します。
+前の手順で作成した[Azure Portal](https://aad.portal.azure.com)の登録済みアプリケーションに戻ります。 [**設定**] ブレードで [**返信 url** ] を選択します。 コピーした**リダイレクト url**を、追加の**応答 url**として追加します。 Azure Active Directory ポータルにアプリケーションを保存します。
 
 ![Azure portal の応答 Url ブレードのスクリーンショット](./images/flow-conn6.png)
